@@ -1,0 +1,65 @@
+body.light-mode {
+    background-color: white;
+    color: black;
+}
+
+body.light-mode .navbar {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #ddd;
+}
+
+body.light-mode .nav-links a {
+    color: black;
+}
+
+body.light-mode .mode-switch {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+body.dark-mode .navbar {
+    background-color: #333;
+    border-bottom: 1px solid #444;
+}
+
+body.dark-mode .nav-links a {
+    color: white;
+}
+
+body.dark-mode .mode-switch {
+    background-color: #444;
+    color: white;
+}
+
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s;
+}
+
+.mode-switch {
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
